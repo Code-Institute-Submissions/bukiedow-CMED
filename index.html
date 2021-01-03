@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="Assets/css/style.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/58ccc28875.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init("user_vyDv2RKiniiB0opXeK0NL");
+             })();
+        </script>
+
+
+        <title>Calvary Medical Services</title>
+     </head>
+
+    <body>
+        <!---header-->
+        <nav class="navbar">
+	        <div class="navbar__container">
+		        <a href="#" id="navbar__logo">CALVARY</a>
+            </div>
+        </nav>
+
+        <!--body left-->
+      <div class="container">
+    <div class="split left">
+            <h1>About Us</h1>
+            <p> We are the first online database of qualified doctors in all of England.<break> Our Doctors are emphatic and are active members of the National Medical Council.</break></p>
+    </div>
+ <!--Split page containing about us and modal-->
+
+
+    <div class="container">
+    <div class="split left">
+            <h1>About Us</h1>
+            <p> We are the first online database of qualified doctors in all of England.<break> Our Doctors are emphatic and are active members of the National Medical Council.</break></p>
+    </div>
+ <!--Modal contact form-->
+  <div class="split right">
+    <h1>Need a doctor?</h1>
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 font-weight-bold">Your Details</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <p>Please use the form to reach out and your preferred doctor will contact you within 2-3 business days</p>
+      </div>
+
+      <div class="modal-body mx-3">
+          <form onsubmit="return sendMail(this);" method="POST">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix blue-text"></i>
+          <input type="text" name="name" id="name" class="form-control validate" placeholder= "Bukie Dow" required>
+          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix blue-text"></i>
+          <input type="email" name="emailaddress" id="emailaddress" class="form-control validate" placeholder="abc@required.com" required>
+          <label data-error="wrong" data-success="right" for="form29" >Your email </label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix blue-text"></i>
+          <input type="text" name="subject" id="subject" class="form-control validate"  placeholder=" e.g Doctor in Stevenage">
+          <label data-error="wrong" data-success="right" for="form32">Subject</label>
+        </div>
+
+        <div class="md-form">
+          <i class="fas fa-pencil prefix blue-text"></i>
+          <textarea type="text" id="message" name="message" class="md-textarea form-control" rows="4" placeholder="I am interested in seeing Dr Hughes...." required></textarea>
+          <label data-error="wrong" data-success="right" for="form8">Message</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="text-center">
+  <a href="#" class="button" data-toggle="modal" data-target="#modalContactForm">Contact your preferred doctor</a>
+</div>
+ </div>
+</div>
+
+        <script src="assets/js/sendEmail.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/maps.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ1b-ku6EJ1uUBmIJZXcxlQAs6Oh06nsI&callback=initMap&libraries=places"></script>
+
+    </body>
+</html>
