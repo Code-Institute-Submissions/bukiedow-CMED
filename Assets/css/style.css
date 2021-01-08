@@ -306,6 +306,9 @@ ackground: #ee0979; /* fallback for old browsers */
 
 
 /*maps*/
+.mapss{
+    background: transparent;
+}
 
 .map-container{
     height: auto;
@@ -366,7 +369,6 @@ table {
 }
 
 #listing {
- 
   width: 200px;
   height: 470px;
   overflow: auto;
@@ -496,11 +498,16 @@ table {
      -webkit-text-fill-color: transparent;
      font-size: 3.8rem;
       background-size: 100%;
-      
+    text-align: center;
+    
+}
 
-
-
-
+.help__content p{
+    font-size: 2rem;
+    font-size: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
 
 
 
@@ -524,15 +531,28 @@ table {
 }
 
 .socialmedia_icons{
-color: rgba(223, 39, 39, 0.7);
+color:white;
 text-transform: uppercase;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: "lato", "Roboto", sans-serif;
+font-size: small;
+}
+
+#footer__logo{
+font-size: 2rem;
+color: white;
+
+}
+
+.social-links{
+    color: #fff;
+  font-size: 12px;
+
 }
 
 
-.about-us{
-    font-family: 'Oswald', sans-serif;
-}
+/*.about-us{
+    font-family: 'Lato', sans-serif;
+}*/
 
 @media{
    @media(max-width: 800px) 
