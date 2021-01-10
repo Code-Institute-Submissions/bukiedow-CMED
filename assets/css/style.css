@@ -533,22 +533,51 @@ table {
     padding-top: 20px;
 }
 
-.socialmedia_icons{
-color:white;
+.footer__copyright{
+
+-webkit-text-fill-color: transparent;
 text-transform: uppercase;
-font-family: "lato", "Roboto", sans-serif;
-font-size: small;
+ background-image: linear-gradient(to top, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
+ margin-bottom: 12px;
+    -webkit-background-clip: text;
+     -moz-text-fill-color: transparent;
+     background-color:  #4bc0c8;
+     background-size: 100%;
+      -moz-background-clip: text;
+      text-align: center;
+    font-family: "lato", "Roboto", sans-serif;
+    font-size: 1.5rem;
+
 }
 
 #footer__logo{
-font-size: 2rem;
-color: white;
-
+-webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
+    font-size: 3rem;
+    margin-bottom: 12px;
+    -webkit-background-clip: text;
+     -moz-text-fill-color: transparent;
+     background-color:  #4bc0c8;
+     background-size: 100%;
+      -moz-background-clip: text;
+      text-align: center;
+/*font-size: 2rem;
+color: #FEAC5E;*/
 }
 
 .social-links{
-    color: #fff;
-  font-size: 12px;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
+    font-size: 1rem;
+    margin-bottom: 12px;
+    -webkit-background-clip: text;
+     -moz-text-fill-color: transparent;
+     background-color:  #4bc0c8;
+     background-size: 100%;
+      -moz-background-clip: text;
+      text-align: center;
 
 }
 
