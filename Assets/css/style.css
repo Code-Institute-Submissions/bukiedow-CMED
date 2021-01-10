@@ -328,6 +328,10 @@ ackground: #ee0979; /* fallback for old browsers */
   background-color: #fff;
   font-family: Roboto;
 }
+.map-wrapper{
+    height: 440px;
+}
+
 
 #title {
   color: #fff;
@@ -385,7 +389,7 @@ table {
 
 #finddoctors {
   font-size: 14px;
-  color: white;
+  color:black;
 }
 
 #locationField {
