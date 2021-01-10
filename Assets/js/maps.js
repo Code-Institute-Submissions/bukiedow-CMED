@@ -68,6 +68,9 @@ function search() {
     types: ["doctor"],
   };
   places.nearbySearch(search, (results, status, pagination) => {
+     if ($('#no-result').length) $('#no-result').remove()
+       $('#results').empty()
+        if (!results.length) $('#listing').append('<p id="no-result">No result</p>')
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
@@ -75,7 +78,7 @@ function search() {
       // Create a marker for each hotel found, and
       // assign a letter of the alphabetic to each marker icon.
      
-      
+     
       for (let i = 0; i < results.length; i++) {
         const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
         const markerIcon = MARKER_PATH + markerLetter + ".png";
@@ -92,7 +95,7 @@ function search() {
         setTimeout(dropMarker(i), i * 100);
         addResult(results[i], i);
       }
-     
+    
     }
   });
 }
@@ -238,7 +241,7 @@ function buildIWContent(place) {
   }
 }
 
-/* more js map loader*/
+/* more js map loader
 const loader = new Loader({
   apiKey: "YOAIzaSyCArPSPWnN4jY9q4xMkHeg2mOu3J1Jeat0",
   version: "weekly",
@@ -249,4 +252,4 @@ loader.load().then(() => {
     center: { lat: -34.397, lng: 150.644 },
     zoom: 8,
   });
-});
+});*/

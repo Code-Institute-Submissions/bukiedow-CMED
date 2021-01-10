@@ -8,17 +8,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="Assets/css/style.css" type="text/css" />
-    <script src="https://kit.fontawesome.com/58ccc28875.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_vyDv2RKiniiB0opXeK0NL");
-        })();
-    </script>
+    
     <title>Calvary Medical Services</title>
 
 </head>
@@ -105,13 +95,14 @@
 
                 <div class="col-md-2">
                     <div id="listing">
-                        <table id="resultsTable">
+                        <p id="no-result">No result</p>
 
+                        <table id="resultsTable">
                             <tbody id="results">
+                                
                             </tbody>
                         </table>
                     </div>
-
                     <div style="display: none">
                         <div id="info-content">
                             <table>
@@ -242,11 +233,17 @@
         </div>
     </footer>
 
-
+    <script src="https://kit.fontawesome.com/58ccc28875.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
     <script src="Assets/js/sendEmail.js"></script>
     <script src="Assets/js/main.js"></script>
     <script src="Assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ1b-ku6EJ1uUBmIJZXcxlQAs6Oh06nsI&callback=initMap&libraries=places"></script>
+    
 </body>
 
 </html>
