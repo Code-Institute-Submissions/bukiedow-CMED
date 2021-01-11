@@ -70,11 +70,13 @@ function search() {
   places.nearbySearch(search, (results, status, pagination) => {
      if ($('#no-result').length) $('#no-result').remove()
        $('#results').empty()
-        if (!results.length) $('#listing').append('<p id="no-result">No result</p>')
+        if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>')
+        
+        
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
-
+S
       // Create a marker for each hotel found, and
       // assign a letter of the alphabetic to each marker icon.
      
@@ -241,15 +243,3 @@ function buildIWContent(place) {
   }
 }
 
-/* more js map loader
-const loader = new Loader({
-  apiKey: "YOAIzaSyCArPSPWnN4jY9q4xMkHeg2mOu3J1Jeat0",
-  version: "weekly",
-  ...additionalOptions,
-});
-loader.load().then(() => {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-});*/

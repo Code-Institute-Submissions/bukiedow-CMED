@@ -8,10 +8,10 @@
   scroll-behavior: smooth;
 }
 
-/*body , html {
+body{
     background-color: #151111
 }
-*/
+
 
 .navbar {
   background: #131313;
@@ -381,14 +381,23 @@ table {
   overflow-x: hidden;
 }
 
+#no-result{
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
 #close{
     width:50px;
     height:50px;
 }
 
 #finddoctors {
-  font-size: 14px;
+  font-size: 17px;
   color:black;
+  font-weight: 700;
 }
 
 #locationField {
@@ -525,7 +534,7 @@ table {
 
 
 #footer{
-    background-color:rgba(43, 43, 43);
+    background-color: #000000;
     position: relative;
     height: fit-content;
     clear: both;
@@ -534,7 +543,6 @@ table {
 }
 
 .footer__copyright{
-
 -webkit-text-fill-color: transparent;
 text-transform: uppercase;
  background-image: linear-gradient(to top, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
@@ -546,7 +554,7 @@ text-transform: uppercase;
       -moz-background-clip: text;
       text-align: center;
     font-family: "lato", "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 }
 
@@ -554,7 +562,7 @@ text-transform: uppercase;
 -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     background-image: linear-gradient(to top, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 12px;
     -webkit-background-clip: text;
      -moz-text-fill-color: transparent;
