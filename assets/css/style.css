@@ -87,6 +87,7 @@ body{
   text-decoration: none;
   padding: 10px 20px;
   height: 100%;
+  font-size: 2rem;
   width: 100%;
   border: none;
   outline: none;
@@ -94,8 +95,8 @@ body{
   background: #4bc0c8;
   background: -webkit-linear-gradient(to right, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
   background: linear-gradient(to right,#C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
-  color: black;
-  text-transform: uppercase;
+  color: white;
+  text-transform:none;
   transition: all 0.3s ease;
 }
 
@@ -185,7 +186,7 @@ body{
     cursor: pointer;
   }
 
-  #mobile-menu.is-active .bar:nth-child(2) {
+  /*#mobile-menu.is-active .bar:nth-child(2) {
     opacity: 0;
   }
 
@@ -195,7 +196,7 @@ body{
 
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-  }
+  }*/
 }
 
 
@@ -335,12 +336,11 @@ font-size: 60px;
 #title {
   color: #fff;
   background: linear-gradient(to right,#FEAC5E, #C779D0, #4bc0c8);
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   padding: 6px 12px;
   text-align: center;
   position: relative;
-  text-transform: uppercase;
 }
 
 table {
@@ -496,6 +496,60 @@ table {
       -moz-background-clip: text;
       text-align: center;
 }
+
+.modal__btn {
+  font-size: 1.8rem;
+  background:  #FEAC5E;
+  background: -webkit-linear-gradient(to right, #FEAC5E, #C779D0, #4bc0c8);
+  background: linear-gradient(to right,#FEAC5E, #C779D0, #4bc0c8);
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.modal__btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+ a:hover{
+    text-decoration: none;
+}
+
+
+.modal__btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  /*background:  #C779D0;*/
+  /*-webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;*/
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.modal__btn:hover {
+  color: #fff;
+}
+
+.modal__btn:hover:after {
+  width: 100%;
+}
+
 
 /*.help__content h3{
     background: #ff8177;

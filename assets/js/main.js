@@ -1,4 +1,4 @@
-/*show menu*/
+/*show menu
 const mobileMenu = () => {
   menu.classList.toggle('is-active');
   menuLinks.classList.toggle('active');
@@ -26,7 +26,7 @@ const highlightMenu = () => {
   const servicesMenu = document.querySelector('#services-page');
   let scrollPos = window.scrollY;
 
-  /*adds 'highlight' class to my menu items*/
+  /*adds 'highlight' class to my menu items
   if (window.innerWidth > 960 && scrollPos < 600) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
@@ -49,3 +49,4 @@ const highlightMenu = () => {
 
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
+*/
