@@ -87,7 +87,7 @@ body{
   text-decoration: none;
   padding: 10px 20px;
   height: 100%;
-  font-size: 2rem;
+  /*font-size: 2rem;*/
   width: 100%;
   border: none;
   outline: none;
@@ -262,7 +262,7 @@ font-size: 60px;
 
 
 .main__btn {
-  font-size: 1.8rem;
+  /*font-size: 1.8rem;*/
   background:  #FEAC5E;
   background: -webkit-linear-gradient(to right, #FEAC5E, #C779D0, #4bc0c8);
   background: linear-gradient(to right,#FEAC5E, #C779D0, #4bc0c8);
@@ -385,7 +385,7 @@ table {
     font-size: large;
     font-weight: 800;
     text-align: center;
-    margin-top: 6px;
+    margin-top: 27px;
     margin-bottom: 12px;
 }
 
