@@ -61,7 +61,7 @@ function onPlaceChanged() {
   }
 }
 
-// Search for hotels in the selected city, within the viewport of the map.
+// Search for doctors in the selected city, within the viewport of the map.
 function search() {
   const search = {
     bounds: map.getBounds(),
@@ -70,13 +70,13 @@ function search() {
   places.nearbySearch(search, (results, status, pagination) => {
      if ($('#no-result').length) $('#no-result').remove()
        $('#results').empty()
-        if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>')
+        if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>')
         
         
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
-S
+
       // Create a marker for each hotel found, and
       // assign a letter of the alphabetic to each marker icon.
      
