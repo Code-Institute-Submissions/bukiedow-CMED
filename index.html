@@ -17,7 +17,7 @@
     <nav class="navbar">
         <div class="navbar__container">
             <a href="#" id="navbar__logo">CALVARY</a>
-            <div class="navbar__toggle" id="mobile-menu">
+            <div class="navbar__toggle" id="calvary-menu">
                 <span class="bar"></span> <span class="bar"></span>
                 <span class="bar"></span>
             </div>
@@ -81,7 +81,7 @@
                         <div id="finddoctors">Search</div>
 
                         <div id="locationField">
-                            <input id="autocomplete" placeholder="Enter a city" type="text" />
+                            <input id="autocomplete" placeholder="Enter a city in the UK" type="text" />
                         </div>
 
                         <div id="controls">
@@ -157,7 +157,7 @@
                         </div>
 
                         <div class="modal-body">
-                            <p>Please fill this form as accurately as possible and your preferred doctor will contact you within the next 24 hours. Terms and conditions apply.</p>
+                            <p>Please fill this form as accurately as possible and your preferred doctor will contact you within the next 24 hours.<br> If you have been experiencing any COVID symptoms, please state so in the form. </br> Terms and conditions apply.</p>
                         </div>
 
                         <div class="modal-body mx-3">
@@ -181,6 +181,14 @@
                                     <input type="text" name="subject" id="subject" class="form-control validate"
                                         placeholder=" e.g Doctor in Stevenage">
                                     <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                                </div>
+
+
+                                <div class="md-form mb-5">
+                                    <i class="fas fa-tag prefix blue-text"></i>
+                                    <input type="text" name="question" id="question" class="form-control validate"
+                                        placeholder=" e.g Yes I am experiencing ..... , No, I do not have any symptoms.">
+                                    <label data-error="wrong" data-success="right" for="form32">Are you or anyone close to you experiencing any COVID symptoms?</label>
                                 </div>
 
                                 <div class="md-form">
@@ -216,7 +224,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-lg-12">
                     <div class="footer__logo">
-                        <a href="/" id="footer__logo">CALVARY</a>
+                        <a href="#about" id="footer__logo">CALVARY</a>
                     </div>
                     
                     <div class="social-links">
