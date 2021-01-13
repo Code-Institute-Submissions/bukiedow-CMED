@@ -221,10 +221,9 @@ body{
 }
 
 .about__heading{
-font-size: 60px;
-  margin-bottom: 24px;
-  color: #fff;
-
+color: #fff;
+font-size: 100px;
+margin-bottom: 24px;
 }
 
 .about__heading span{
