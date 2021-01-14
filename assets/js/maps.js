@@ -77,7 +77,7 @@ function search() {
       clearResults();
       clearMarkers();
 
-      // Create a marker for each hotel found, and
+      // Create a marker for each doctor found, and
       // assign a letter of the alphabetic to each marker icon.
      
      

@@ -13,9 +13,9 @@ menu.addEventListener('click', calvaryMenu);
 // Show active menu when scrolling
 const highlightMenu = () => {
   const elem = document.querySelector('.highlight');
-  const homeMenu = document.querySelector('#about-page');
-  const aboutMenu = document.querySelector('#search-page');
-  const servicesMenu = document.querySelector('#help-page');
+  const aboutMenu = document.querySelector('#about-page');
+  const searchMenu = document.querySelector('#search-page');
+  const helpMenu = document.querySelector('#help-page');
   let scrollPos = window.scrollY;
   // console.log(scrollPos);
 
