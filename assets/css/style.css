@@ -87,7 +87,6 @@ body{
   text-decoration: none;
   padding: 10px 20px;
   height: 100%;
-  /*font-size: 2rem;*/
   width: 100%;
   border: none;
   outline: none;
@@ -269,7 +268,7 @@ font-size: 100px;
 
 
 .main__btn {
-  /*font-size: 1.8rem;*/
+
   background:  #4bc0c8;
   background: -webkit-linear-gradient(to right, #FEAC5E, #C779D0, #4bc0c8);
   background: linear-gradient(to right,#FEAC5E, #C779D0, #4bc0c8);
@@ -364,7 +363,7 @@ table {
   display: -ms-flexbox;
   display: flex;
   left: 0;
-  /*position: relative;*/
+ 
   top: 20%;
   margin-bottom: 0px;
   width: 100%;
@@ -543,9 +542,6 @@ a{
   left: 0;
   width: 0;
   height: 100%;
-  /*background:  #C779D0;*/
-  /*-webkit-text-fill-color: transparent;
-   -moz-text-fill-color: transparent;*/
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -623,6 +619,3 @@ text-transform: uppercase;
       text-align: center;
 
 }
-
-
-
