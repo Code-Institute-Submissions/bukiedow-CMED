@@ -100,6 +100,12 @@ body{
   transition: all 0.3s ease;
 }
 
+
+
+
+
+
+
 .navbar__links:hover {
   color: #4bc0c8;
   transition: all 0.3s ease;
@@ -246,11 +252,11 @@ font-size: 100px;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -mo-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .about__description{
-    font-size: 40px;
+    font-size: 30px;
     background:  #4bc0c8;
   background: -webkit-linear-gradient(to right,  #FEAC5E, #C779D0, #4bc0c8);
   background: linear-gradient(to right,  #FEAC5E, #C779D0, #4bc0c8);
@@ -264,7 +270,7 @@ font-size: 100px;
 
 .main__btn {
   /*font-size: 1.8rem;*/
-  background:  #FEAC5E;
+  background:  #4bc0c8;
   background: -webkit-linear-gradient(to right, #FEAC5E, #C779D0, #4bc0c8);
   background: linear-gradient(to right,#FEAC5E, #C779D0, #4bc0c8);
   padding: 20px 60px;
@@ -311,10 +317,10 @@ font-size: 100px;
     background: transparent;
 }
 
-.map-container{
-    height: auto;
+.maps__container{
+    
     height: 100%;
-    background-color: none;
+    background-color: transparent;
     top:0px;
     margin-top:0px;
 }
@@ -469,7 +475,7 @@ table {
 
 .help__container{
     justify-content: center;
-     height: 90%;
+     height: 100%;
      width: 100%;
     padding: 0 50px;
     width: 100%;
@@ -489,7 +495,7 @@ table {
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     background-image: linear-gradient(to top, #C779D0 20%, #FEAC5E 60%, #4bc0c8 20%);
-    font-size: 1.5 rem;
+    font-size: 4rem;
     margin-bottom: 32px;
     -webkit-background-clip: text;
      -moz-text-fill-color: transparent;
@@ -620,13 +626,3 @@ text-transform: uppercase;
 
 
 
-
-@media{
-   @media(max-width: 800px) 
-
-
-@media(max-height: 700px) {
-  .button {
-    top: 70%;
-  }
-}

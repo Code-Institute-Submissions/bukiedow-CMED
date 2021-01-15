@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
-    
+
     <title>Calvary Medical Services</title>
 
 </head>
@@ -35,171 +35,181 @@
         </div>
     </nav>
 
-    <!--About Us--->
-    <div class="main" id= "about">
+    <!--About Us-->
+    <div class="main" id="about">
         <div class="about__container">
-             <h1 class="about__heading">Beat long NHS <span>queues</span></h1>
-        <p class="about__description">Waiting times are now longer due to COVID.<br>
-            We are the FIRST intermediary doctor appointment platform in all of the United Kingdom.
-                        Just SEARCH for your
-                        preferred doctor, contact us with preferred doctor details for
-                        guaranteed less than
-                        48 - 72hr appointments.<br>
-                        See doctor quicker without the burden of going private.</p>
-        <button class="main__btn"><a href="#search">Doctor Search</a></button>
-      </div>
+            <h1 class="about__heading">Beat long NHS <span>queues</span></h1>
+            <p class="about__description">Waiting times are now longer due to COVID.<br>
+                We are the FIRST intermediary doctor appointment platform in all of the United Kingdom.
+                Just SEARCH for your
+                preferred doctor, contact us with preferred doctor details for
+                guaranteed less than
+                48 - 72hr appointments.<br>
+                See doctor quicker without the burden of going private.</p>
+            <a href="#search" class="main__btn" id="doctor-search">Doctor Search</a>
+
+        </div>
     </div>
 
-          
+
 
     <!--map-->
     <div class="maps__container" id="search">
         <div class="pac-card" id="pac-card">
-        <div>
-     <div id="title">Find a Doctor</div>
-      </div>
-        <div class="search__container">
-            <div class="row">
-                <div class="col-md-10 map-wrapper">
-                    <div class="doctor-search">
-                        <div id="finddoctors">Search</div>
+            <div>
+                <div id="title">Find a Doctor</div>
+            </div>
+            <div class="search__container">
+                <div class="row">
+                    <div class="col-md-10 map-wrapper">
+                        <div class="doctor-search">
+                            <div id="finddoctors">Search</div>
 
-                        <div id="locationField">
-                            <input id="autocomplete" placeholder="Enter a city in the UK" type="text" />
+                            <div id="locationField">
+                                <input id="autocomplete" placeholder="Enter a city in the UK" type="text" />
+                            </div>
+
+                            <div id="controls">
+                                <select id="country">
+                                    <option value="uk">United Kingdom</option>
+                                </select>
+                            </div>
                         </div>
 
-                        <div id="controls">
-                            <select id="country">
-                                <option value="uk">United Kingdom</option>
-                            </select>
-                        </div>
+                        <div id="map"></div>
+
                     </div>
 
-                    <div id="map"></div>
+                    <div class="col-md-2 listing-wrapper">
+                        <div id="listing">
+                            <p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA.
+                                PLEASE TRY ANOTHER CITY.
+                                OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY
+                                ANOTHER CITY.
+                            </p>
 
-                </div>
+                            <table id="resultsTable">
+                                <tbody id="results">
 
-                <div class="col-md-2 listing-wrapper">
-                    <div id="listing">
-                        <p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. 
-                            OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.
-                        </p>
-
-                        <table id="resultsTable">
-                            <tbody id="results">
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                    <div style="display: none">
-                        <div id="info-content">
-                            <table>
-                                <tr id="iw-url-row" class="iw_table_row">
-                                    <td id="iw-icon" class="iw_table_icon"></td>
-                                    <td id="iw-url"></td>
-                                </tr>
-                                <tr id="iw-address-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Address:</td>
-                                    <td id="iw-address"></td>
-                                </tr>
-                                <tr id="iw-phone-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Telephone:</td>
-                                    <td id="iw-phone"></td>
-                                </tr>
-                                <tr id="iw-rating-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Rating:</td>
-                                    <td id="iw-rating"></td>
-                                </tr>
-                                <tr id="iw-website-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Website:</td>
-                                    <td id="iw-website"></td>
-                                </tr>
+                                </tbody>
                             </table>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--help with modal-->
-    <div class="contact" id="help">
-        <div class="help__container">
-            <div class="help__content">
-            <h1>Found your preferred doctor?</h1>
-            </div>
-            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h3 class="modal-title w-100 font-weight-bold">Your Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-
-                        <div class="modal-body">
-                            <p>Please fill this form as accurately as possible and your preferred doctor will contact you within the next 24 hours.<br> If you have been experiencing any COVID symptoms, please state so in the form. </br> Terms and conditions apply.</p>
-                        </div>
-
-                        <div class="modal-body mx-3">
-                            <form onsubmit="return sendMail(this);" method="POST">
-                                <div class="md-form mb-5">
-                                    <i class="fas fa-user prefix blue-text"></i>
-                                    <input type="text" name="name" id="name" class="form-control validate"
-                                        placeholder="Bukie Dow" required>
-                                    <label data-error="wrong" data-success="right" for="form34">Your name</label>
-                                </div>
-
-                                <div class="md-form mb-5">
-                                    <i class="fas fa-envelope prefix blue-text"></i>
-                                    <input type="email" name="emailaddress" id="emailaddress"
-                                        class="form-control validate" placeholder="abc@required.com" required>
-                                    <label data-error="wrong" data-success="right" for="form29">Your email </label>
-                                </div>
-
-                                <div class="md-form mb-5">
-                                    <i class="fas fa-tag prefix blue-text"></i>
-                                    <input type="text" name="subject" id="subject" class="form-control validate"
-                                        placeholder=" e.g Doctor in Stevenage">
-                                    <label data-error="wrong" data-success="right" for="form32">Subject</label>
-                                </div>
-
-
-                                <div class="md-form mb-5">
-                                    <i class="fas fa-tag prefix blue-text"></i>
-                                    <input type="text" name="question" id="question" class="form-control validate"
-                                        placeholder=" e.g Yes I am experiencing ..... , No, I do not have any symptoms.">
-                                    <label data-error="wrong" data-success="right" for="form32">Are you or anyone close to you experiencing any COVID symptoms?</label>
-                                </div>
-
-                                <div class="md-form">
-                                    <i class="fas fa-pencil prefix blue-text"></i>
-                                    <textarea type="text" id="message" name="message" class="md-textarea form-control"
-                                        rows="4" placeholder="I am interested in seeing Dr Hughes...."
-                                        required></textarea>
-                                    <label data-error="wrong" data-success="right" for="form8">Message</label>
-                                </div>
-
-                        </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
-                            </form>
+                        <div style="display: none">
+                            <div id="info-content">
+                                <table>
+                                    <tr id="iw-url-row" class="iw_table_row">
+                                        <td id="iw-icon" class="iw_table_icon"></td>
+                                        <td id="iw-url"></td>
+                                    </tr>
+                                    <tr id="iw-address-row" class="iw_table_row">
+                                        <td class="iw_attribute_name">Address:</td>
+                                        <td id="iw-address"></td>
+                                    </tr>
+                                    <tr id="iw-phone-row" class="iw_table_row">
+                                        <td class="iw_attribute_name">Telephone:</td>
+                                        <td id="iw-phone"></td>
+                                    </tr>
+                                    <tr id="iw-rating-row" class="iw_table_row">
+                                        <td class="iw_attribute_name">Rating:</td>
+                                        <td id="iw-rating"></td>
+                                    </tr>
+                                    <tr id="iw-website-row" class="iw_table_row">
+                                        <td class="iw_attribute_name">Website:</td>
+                                        <td id="iw-website"></td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="text-center">
-                <a href="#" class="main__btn" data-toggle="modal" data-target="#modalContactForm">Click here to reach us</a>
-            </div>
         </div>
-    </div>
-    
+        </div>
+
+        <!--help with modal-->
+        <div class="contact" id="help">
+            <div class="help__container">
+                <div class="help__content">
+                    <h1>Found your preferred doctor?</h1>
+                </div>
+                <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog"
+                    aria-labelledby="modalContactForm" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h3 class="modal-title w-100 font-weight-bold">Your Details</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Please fill this form as accurately as possible and your preferred doctor will
+                                    contact you within the next 24 hours.<br> If you have been experiencing any COVID
+                                    symptoms, please state so in the form. Terms and conditions apply.</p>
+                            </div>
+
+                            <div class="modal-body mx-3">
+                                <form onsubmit="return sendMail(this);" method="POST">
+                                    
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-user prefix blue-text"></i>
+                                        <input type="text" name="name" id="name" class="form-control validate"
+                                            placeholder="Bukie Ochuware Dow" required>
+                                        <label data-error="wrong" data-success="right" for="name">Your name</label>
+                                    </div>
+
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-envelope prefix blue-text"></i>
+                                        <input type="email" name="emailaddress" id="emailaddress"
+                                            class="form-control validate" placeholder="abc@required.com" required>
+                                        <label data-error="wrong" data-success="right" for="emailaddress">Your email
+                                        </label>
+                                    </div>
+
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-file-alt prefix blue-text"></i>
+                                        <input type="text" name="subject" id="subject" class="form-control validate"
+                                            placeholder=" e.g Doctor in Stevenage">
+                                        <label data-error="wrong" data-success="right" for="subject">Subject</label>
+                                    </div>
 
 
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-head-side-cough prefix blue-text"></i>
+                                        <input type="text" name="question" id="question" class="form-control validate"
+                                            placeholder=" e.g Yes I am experiencing ..... , No, I do not have any symptoms.">
+                                        <label data-error="wrong" data-success="right" for="question">Are you or anyone
+                                            close to you experiencing any COVID symptoms?</label>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <i class="fas fa-comment-dots prefix blue-text"></i>
+                                        <textarea id="message" name="message" class="md-textarea form-control" rows="4"
+                                            cols="50" placeholder="I am interested in seeing Dr Hughes...."
+                                            required></textarea>
+                                        <label data-error="wrong" data-success="right" for="message">Message</label>
+                                    </div>
+                                    
+                            </div>
+                            <div class="modal-footer d-flex justify-content-center">
+                                <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+                                <!--</form>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="#" class="main__btn" data-toggle="modal" data-target="#modalContactForm">Click here to
+                        reach us</a>
+                </div>
+            </div>
+        
+        
+        </div>
+
+       
 
 
     <!--footer-->
@@ -210,7 +220,7 @@
                     <div class="footer__logo">
                         <a href="#about" id="footer__logo">CALVARY</a>
                     </div>
-                    
+
                     <div class="social-links">
                         <a href="https://twitter.com/nhsengland?lang=en" target="_blank"><i
                                 class="fab fa-twitter fa-3x"></i></a>
@@ -229,13 +239,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
     <script src="assets/js/sendEmail.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/maps.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ1b-ku6EJ1uUBmIJZXcxlQAs6Oh06nsI&callback=initMap&libraries=places"></script>
-    
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ1b-ku6EJ1uUBmIJZXcxlQAs6Oh06nsI&callback=initMap&libraries=places"></script>
+
 </body>
 
 </html>
