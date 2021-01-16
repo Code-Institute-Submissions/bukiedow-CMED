@@ -1,12 +1,8 @@
  
  
- (https://github.com/bukiedow/images/frontpage.png "Calvary")
-
-(./assets/images/frontpage.png"Logo Title Text 1")
-
 ![title](assets/images/frontpage.png)
 
-Calvary Med
+#Calvary Med
 
 Due to the COVID virus, NHS waiting lists are twice as long even though there are not shortages of patients who need basic healthcare not related to covid.
 Many UK residents are looking for quicker appointment times without having to spend a fortune on private healthcare.
@@ -14,12 +10,12 @@ Many UK residents are looking for quicker appointment times without having to sp
 Calvary Medical Services is an intermediary service that provides quicker GP appointments for people in the UK. Users can use a map to search for doctors in their preferred areas and then contact us with this information to get 24hour appointments instead of joining the general NHS line which is often long and may take many weeks to months. 
 The map will show various doctors in the selected town and the user can pick ones closest to them or their preferred doctor.
 
-DEMO 
-A  live demo version can be found Here.
+
+###DEMO 
+A  live demo version can be found [HERE]: https://bukiedow.github.io/CMED/
 
 ￼
-
-UX
+###UX
 This site is intended for anyone who lives in the UK and wants faster doctors appointments but do not want to pay the cost of private health care.
 The website consists of four (4) parts:
 	
@@ -29,9 +25,14 @@ The website consists of four (4) parts:
 * The contact us page - After users have searched for doctors in their town, the pop up modal enables users send us a message with details about the service they want.
 * Footer- This contains our properly linked social media accounts - Facebook, Twitter and instagram.
 
-*USER STORIES*
 
-ACCEPTANCE CRITERIA
+###USER STORIES
+| S/NO              | CRIB              | PRIORITY (MOSCOW)       | USER STORY         | ACCEPTANCE CRITERIA             |
+| ------------------|:-----------------:| -----------------------:|-------------------:|--------------------------------:|
+|1           |  Homepage           | Must    |As a user I need to see the elements and text as shown in the wireframe |    User should see all text and elements as shown in the wireframe Elements which include: Website name, About, Search, Help, Map, Contact form, Link to social media. User should be able to select all elements.|
+
+
+
 
 STRATEGY
 The goal of the design was to make an eye-catching, seamless and fit for purpose website that can be used always.
