@@ -1,9 +1,10 @@
  
  
- (https://github.com/bukiedow/markdown-here/raw/master/src/common/images/icon48frontpage.png "Calvary")
+ (https://github.com/bukiedow/images/frontpage.png "Calvary")
 
 (./assets/images/frontpage.png"Logo Title Text 1")
 
+![title](assets/images/frontpage.png)
 
 Calvary Med
 
