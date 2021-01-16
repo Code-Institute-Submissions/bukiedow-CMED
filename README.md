@@ -12,7 +12,7 @@ The map will show various doctors in the selected town and the user can pick one
 
 
 ### DEMO 
-A  live demo version can be found [HERE]: https://bukiedow.github.io/CMED/
+A  live demo version can be found HERE [https://bukiedow.github.io/CMED/.]
 
 ￼
 ### UX
@@ -58,9 +58,8 @@ The structure of this website promotes ease of navigation and beauty.
 The page is structured to spark the users interest enough to contact us due to the vast choice of doctors in every area.
 
 ### SKELETON
-Balsamiq was used for wireframes. View [VIEW]: https://e7557b79-1c25-43df-825c-73c2a6e2f486.ws-eu03.gitpod.io/files/download/?id=4e5041a0-4331-4d82-89ab-bc18309a8c3f
+Balsamiq was used for wireframes. [VIEW](assets/wireframe/CMED Wireframes.pdf)
 
-### SURFACE
 Easy fonts - Lato and Roboto were chosen for uniformity and less complication due to the simple nature of the website.
 Colours chosen is a mix of yellow, purple and torquoise known as Atlas because of its subtle yet bold nature which os perfect for a website with a short strong message such as this.
 
@@ -149,9 +148,9 @@ All links have been manually tested and function properly.
 * The entire body of the website is consistent in design, the background is fluid, smooth scroll is evident and there are no elements lapping or outside the website’s borders.
 
 Overall, this site was tested thus;
-* HTML code is run and tested at   [W3CHTMLVALIDATOR]: https://validator.w3.org/ with minimal warnings.
-* CSS code is run and tested at [W3CJIGSAWCSSVALIDATOR]: https://jigsaw.w3.org/css-validator/ with no errors but warnings about using other vendors such as webkit.
-* Javascript is run and tested at [JSHint] : https://jshint.com/ with minimal warnings about editions.
+* HTML code is run and tested at   W3CHTMLVALIDATOR [https://validator.w3.org/] with minimal warnings.
+* CSS code is run and tested at W3CJIGSAWCSSVALIDATOR [https://jigsaw.w3.org/css-validator/] with no errors but warnings about using other vendors such as webkit.
+* Javascript is run and tested at JSHint [https://jshint.com/] with minimal warnings about editions.
 * Family members and friends viewed the site and provided feedback on bugs and any issues.
 * The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
 * The website was tested on a variety of devices such as Desktop, Laptop, iPad mini, iPhone 7, iPhone 8, iPhoneX and Nokia E30.
