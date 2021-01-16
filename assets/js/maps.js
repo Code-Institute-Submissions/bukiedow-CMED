@@ -68,19 +68,19 @@ function search() {
     types: ["doctor"],
   };
   places.nearbySearch(search, (results, status, pagination) => {
-     if ($('#no-result').length) $('#no-result').remove()
-       $('#results').empty()
-        if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>')
-        
-        
+    if ($('#no-result').length) $('#no-result').remove()
+    $('#results').empty()
+    if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>')
+
+
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
 
       // Create a marker for each doctor found, and
       // assign a letter of the alphabetic to each marker icon.
-     
-     
+
+
       for (let i = 0; i < results.length; i++) {
         const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
         const markerIcon = MARKER_PATH + markerLetter + ".png";
@@ -90,14 +90,14 @@ function search() {
           animation: google.maps.Animation.DROP,
           icon: markerIcon,
         });
-        // If the user clicks a hotel marker, show the details of that hotel
+        // If the user clicks a doctor marker, show the details of that hotel
         // in an info window.
         markers[i].placeResult = results[i];
         google.maps.event.addListener(markers[i], "click", showInfoWindow);
         setTimeout(dropMarker(i), i * 100);
         addResult(results[i], i);
       }
-    
+
     }
   });
 }
@@ -137,7 +137,7 @@ function setAutocompleteCountry() {
 }
 
 function dropMarker(i) {
-  return function() {
+  return function () {
     markers[i].setMap(map);
   };
 }
@@ -149,7 +149,7 @@ function addResult(result, i) {
   const tr = document.createElement("tr");
   tr.style.backgroundColor = i % 2 === 0 ? "#F0F0F0" : "#FFFFFF";
 
-  tr.onclick = function() {
+  tr.onclick = function () {
     google.maps.event.trigger(markers[i], "click");
   };
   const iconTd = document.createElement("td");
@@ -174,8 +174,8 @@ function clearResults() {
   }
 }
 
-// Get the place details for a hotel. Show the information in an info window,
-// anchored on the marker for the hotel that the user selected.
+// Get the place details for a doctor. Show the information in an info window,
+// anchored on the marker for the doctor that the user selected.
 function showInfoWindow() {
   const marker = this;
   places.getDetails({
@@ -207,17 +207,17 @@ function buildIWContent(place) {
     document.getElementById("iw-phone-row").style.display = "none";
   }
 
-  // Assign a five-star rating to the hotel, using a black star ('&#10029;')
-  // to indicate the rating the hotel has earned, and a white star ('&#10025;')
+  // Assign a five-star rating to the doctor, using a black star ('✭')
+  // to indicate the rating the doctor has earned, and a white star ('✩')
   // for the rating points not achieved.
   if (place.rating) {
     let ratingHtml = "";
 
     for (let i = 0; i < 5; i++) {
       if (place.rating < i + 0.5) {
-        ratingHtml += "&#10025;";
+        ratingHtml += "✩";
       } else {
-        ratingHtml += "&#10029;";
+        ratingHtml += "✭";
       }
       document.getElementById("iw-rating-row").style.display = "";
       document.getElementById("iw-rating").innerHTML = ratingHtml;
@@ -242,4 +242,3 @@ function buildIWContent(place) {
     document.getElementById("iw-website-row").style.display = "none";
   }
 }
-

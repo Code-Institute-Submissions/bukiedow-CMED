@@ -58,7 +58,7 @@ The structure of this website promotes ease of navigation and beauty.
 The page is structured to spark the users interest enough to contact us due to the vast choice of doctors in every area.
 
 ### SKELETON
-Balsamiq was used for wireframes. [VIEW](assets/wireframe/CMED Wireframes.pdf)
+Balsamiq was used for wireframes. [VIEW](https://github.com/bukiedow/CMED/blob/11f5b2ad222a526880fd4dac0a93df4ecf251864/assets/wireframe/CMED%20Wireframes.pdf)
 
 Easy fonts - Lato and Roboto were chosen for uniformity and less complication due to the simple nature of the website.
 Colours chosen is a mix of yellow, purple and torquoise known as Atlas because of its subtle yet bold nature which os perfect for a website with a short strong message such as this.
@@ -196,6 +196,7 @@ Click Here to retrieve pictures for some of the buttons and more detailed expl
 ### CREDITS
 #### Content
 * Most part of the code was written by me and crosschecked with bootstrap and w3schools.com
+* for the maps, google api and typescript was used.
 
 #### Acknowledgements
 I received inspiration for this project from being tired of the endless NHS wait times. I also received inspiration from Brian Washby- a friend -from whom I first saw and loved mixed colour schemes for websites.
