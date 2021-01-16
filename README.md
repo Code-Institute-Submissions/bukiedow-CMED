@@ -29,8 +29,8 @@ The website consists of four (4) parts:
 ### USER STORIES
 | S/NO              | CRIB              | PRIORITY (MOSCOW)       | USER STORY         | ACCEPTANCE CRITERIA             | SCREENSHOT    |
 | ------------------|:-----------------:| -----------------------:|-------------------:|--------------------------------:| -------------:|
-|1   |   Homepage (means entire website) |    Must |   As a user I need to see the elements and text as shown in the wireframe |   ![title](assets/images/fullscreen.png) |
- * User should see all text and elements as shown in the wireframe Elements which include: Website name, About, Search, Help, Map, Contact form, Link to social media. User should be able to select all elements.|
+|1   |   Homepage (means entire website) |    Must |   As a user I need to see the elements and text as shown in the wireframe |  
+ * User should see all text and elements as shown in the wireframe Elements which include: Website name, About, Search, Help, Map, Contact form, Link to social media. User should be able to select all elements.|    ![title](assets/images/fullscreen.png) |
 
 |2   |   Website name/Logo |   Must|   As a user I need to see the name and logo of the website so that I am sure i am in the right place |  
  * Website name and logo is: "Calvary". 
