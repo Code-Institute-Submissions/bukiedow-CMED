@@ -31,82 +31,41 @@ The website consists of four (4) parts:
 | ------------------|:-----------------:| -----------------------:|-------------------:|--------------------------------:| -------------:|
 |1   |   Homepage (means entire website) |    Must |   As a user I need to see the elements and text as shown in the wireframe |  * User should see all text and elements as shown in the wireframe Elements which include: Website name, About, Search, Help, Map, Contact form, Link to social media. User should be able to select all elements.|    ![title](assets/images/fullscreen.png) |
 
-|2   |   Website name/Logo |   Must|   As a user I need to see the name and logo of the website so that I am sure i am in the right place |  
- * Website name and logo is: "Calvary". 
- * User can see the name of the website on the homepage.
- * Website name is clear. 
- * Website name should be in the same colour and font of the other text (see wireframe).|   ![title](assets/images/namelogo.png) |
+|2   |   Website name/Logo |   Must|   As a user I need to see the name and logo of the website so that I am sure i am in the right place |  * Website name and logo is: "Calvary". * User can see the name of the website on the homepage.* Website name is clear. * Website name should be in the same colour and font of the other text (see wireframe).|   ![title](assets/images/namelogo.png) |
 
-|2b   |   Website Navigation |   Must   | 
-* As a user I need to be able to see all links leading me throughout the website so that I know where to find information when i need it.
-* As a user, the website should show me a dropdown menu when I am using a smaller screen size.
-* As a user, when i click the help button, it should take me to where I can seek help from calvary|   
-* The navlinks should contain the About , Search and highlighted Help Button.
-* A smaller screen size should collapse the links into a drop down menu. |   ![title](assets/images/navlinks.png) , ![title](assets/images/menudropdown.png) |
-|
+|2b   |   Website Navigation |   Must   | * As a user I need to be able to see all links leading me throughout the website so that I know where to find information when i need i* As a user, the website should show me a dropdown menu when I am using a smaller screen size.
+* As a user, when i click the help button, it should take me to where I can seek help from calvary|   * The navlinks should contain the About , Search and highlighted Help Button.* A smaller screen size should collapse the links into a drop down menu. |   ![title](assets/images/navlinks.png) , ![title](assets/images/menudropdown.png) |
 
 
-|3   |   About |   Must|   As a user I need to be informed of the offerings on the website so that I am well informed of the benefits. |    
- * The user should be able to access the "About" . 
- * The "About" message should be brief and clear. 
- * "About" message should read: "Beat long NHS queues. Waiting times are now longer due to COVID.We are the FIRST intermediary doctor appointment platform in all of the United Kingdom".| Just SEARCH for your preferred doctor, contact us with preferred doctor details for guaranteed less than 48 - 72hr appointments. See doctor quicker without the burden of going private."|  
- * "About" should contain a button called "Doctor Search" that leads the user to the search section of the website where they can search for doctors. |    ![title](assets/images/about.png) |
+|3   |   About |   Must|   As a user I need to be informed of the offerings on the website so that I am well informed of the benefits. |    * The user should be able to access the "About" .  * The "About" message should be brief and clear. * "About" message should read: "Beat long NHS queues. Waiting times are now longer due to COVID.We are the FIRST intermediary doctor appointment platform in all of the United Kingdom".| Just SEARCH for your preferred doctor, contact us with preferred doctor details for guaranteed less than 48 - 72hr appointments. See doctor quicker without the burden of going private."|  * "About" should contain a button called "Doctor Search" that leads the user to the search section of the website where they can search for doctors. |    ![title](assets/images/about.png) |
 
-|4   | Map    | Must |    As a user I need to be able to see a map showing the United Kingdom so that I can confirm I am looking in my preferred area. |   
- * The user should see a map of the United Kingdom. *User should be able to zoom in & out of the map. 
- * The map should function just as google map.
- * User must see the heading of the page indicating they are entering the search area |   ![title](assets/images/mapss.png) |
+|4   | Map    | Must |    As a user I need to be able to see a map showing the United Kingdom so that I can confirm I am looking in my preferred area. |   * The user should see a map of the United Kingdom. *User should be able to zoom in & out of the map. * The map should function just as google map.* User must see the heading of the page indicating they are entering the search area |   ![title](assets/images/mapss.png) |
 
 
-|5   | Map - Search    | Must |    As a user I need to search for doctors within my preferred city so that I can see the doctors close to me. |   
- * The user should be able to search the map for specific cities in the UK. 
- * "Doctor search" takes the user to the map. *Only cities within the United Kingdom should be available. 
- * Upon selecting a city, the user should see a list of doctors in the city. |   ![title](assets/images/mapsearch.png) |
+|5   | Map - Search    | Must |    As a user I need to search for doctors within my preferred city so that I can see the doctors close to me. |   * The user should be able to search the map for specific cities in the UK. * "Doctor search" takes the user to the map. *Only cities within the United Kingdom should be available. * Upon selecting a city, the user should see a list of doctors in the city. |   ![title](assets/images/mapsearch.png) |
 
 
-|6   | Map - Search - Auto populate City |   Should |   As a user I need to see a suggestion of related cities so that I can select my preferred city |    
-* Upon typing the name of a city, the user should see a list of related cities. 
-* The user cannot select more than one city at the same time. 
-* The user should be able to select a city from the list displayed. 
-* Upon selecting a city, the user should see a list of doctors within the city. |   ![title](assets/images/map-autopopulate.png) |
+|6   | Map - Search - Auto populate City |   Should |   As a user I need to see a suggestion of related cities so that I can select my preferred city |    * Upon typing the name of a city, the user should see a list of related cities. * The user cannot select more than one city at the same time. * The user should be able to select a city from the list displayed. * Upon selecting a city, the user should see a list of doctors within the city. |   ![title](assets/images/map-autopopulate.png) |
 
 
-|7   | Map - Search - Doctor's List |   Must |   As a user, I need to see a list of doctors within my city so that I can access their contact information |   
-* The list of doctors should display the names of the doctors. * User should be able to browse through the list. 
-* The user should be able to select a doctor from the list displayed. * Upon selecting a doctor, the user should see the contact information of selected doctor
-* The Doctor's contact information should inlcude: Address, Telephone, Rating (If available),  Website (If available). |   ![title](assets/images/map-search-doctorlist.png) |
+|7   | Map - Search - Doctor's List |   Must |   As a user, I need to see a list of doctors within my city so that I can access their contact information |   * The list of doctors should display the names of the doctors. * User should be able to browse through the list. * The user should be able to select a doctor from the list displayed. * Upon selecting a doctor, the user should see the contact information of selected doctor* The Doctor's contact information should inlcude: Address, Telephone, Rating (If available),  Website (If available). |   ![title](assets/images/map-search-doctorlist.png) |
 
 
-|8   | Map - Search - No Doctors |   Must |   As a user I need to be informed that there are no doctors within my selected city so that I can search in nearby cities |  
- * User should see a message if there are not doctors within their selected city. 
- * Message should read: "OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY." |   ![title](assets/images/no results.png) |
+|8   | Map - Search - No Doctors |   Must |   As a user I need to be informed that there are no doctors within my selected city so that I can search in nearby cities |  * User should see a message if there are not doctors within their selected city.* Message should read: "OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY." |   ![title](assets/images/no results.png) |
 
 
-|9   | Contact us |   Must |   As a user I need to see clear direction on how to reach the service provider so that I can request a doctor. |   
-* Verify the user see clear instruction on contacting the service provider. * Instruction should read: “FOUND YOUR PREFERRED DOCTOR? Click here to reach us”
-* “Click here to reach us” takes user to “your details”. |   ![title](assets/images/contact us.png) |
+|9   | Contact us |   Must |   As a user I need to see clear direction on how to reach the service provider so that I can request a doctor. |   * Verify the user see clear instruction on contacting the service provider. * Instruction should read: “FOUND YOUR PREFERRED DOCTOR? Click here to reach us”. * “Click here to reach us” takes user to “your details”. |   ![title](assets/images/contact us.png) |
 
 
-|10   | Your Details |   Must |   As a user I need to provide my contact details so that I can be contacted by my preferred doctor. |  
- * “Your details” screen should be as indicated in the wireframe.
-*	The user should be able to provide their contact details.
-Contact details includes:
-* Your Name 
-* Your email 
-* Subject
-* Are you or anyone close to you experiencing any COVID symptoms?
-* Message 
-All fields are required.
-* Upon completing the form and send, the user see a notification informing them that the form was sent successfully
-Notification message should read: "Message sent" |   ![title](assets/images/modal details.png),  ![title](assets/images/emailsent.png) |
+|10   | Your Details |   Must |   As a user I need to provide my contact details so that I can be contacted by my preferred doctor. |  * “Your details” screen should be as indicated in the wireframe*	The user should be able to provide their contact details.
+Contact details includes:* Your Name * Your email * Subject* Are you or anyone close to you experiencing any COVID symptoms? * Message 
+All fields are required. * Upon completing the form and send, the user see a notification informing them that the form was sent successfully * Notification message should read: "Message sent" |   ![title](assets/images/modal details.png),  ![title](assets/images/emailsent.png) |
 
 
-|11   | 	Your Details – Instructions |   Must |   As a user I need to see clear guidance on the contact form so that I know what to do. |   * Verify the user see clear instructions on how to fill the form.
-* Instruction should read: "Please fill this form as accurately as possible and your preferred doctor will contact you within the next 24 hours. If you have been experiencing any COVID symptoms, please state so in the form.
+|11   | 	Your Details – Instructions |   Must |   As a user I need to see clear guidance on the contact form so that I know what to do. |   * Verify the user see clear instructions on how to fill the form.* Instruction should read: "Please fill this form as accurately as possible and your preferred doctor will contact you within the next 24 hours. If you have been experiencing any COVID symptoms, please state so in the form.
 Terms and conditions apply."|    ![title](assets/images/modal details.png)  |
 
-|12   |   Your Details - Placeholder text |   Should |    As a user I need to see sample texts explaining the required information per field so that I know what to do.|   * The user should see sample texts explaining the information required in each field.
-* Sample text should read as follows:
+|12   |   Your Details - Placeholder text |   Should |    As a user I need to see sample texts explaining the required information per field so that I know what to do.|   * The user should see sample texts explaining the information required in each field.* Sample text should read as follows:
 |Fields----|:---	Sample text---:|
 |Your name   |	Bukie Dow|
 |Your.  | email	abc@required.com|
@@ -114,12 +73,7 @@ Terms and conditions apply."|    ![title](assets/images/modal details.png)  |
 | Are you or anyone close to you experiencing any COVID symptoms? |  	e.g Yes I am experiencing… , No, I do not have any symptoms.|
 |Message |  	I am interested in seeing Dr Hughes…| |   ![title](assets/images/modal details.png)  |
 
-|13   | Social Media Link |   Must |   As a user I need to easily navigate to the social media profiles of the service provider so that I can connect with them better. |   
-* The user should see the social media platforms where the service provider is available.
-* The available social media platforms should be represented by their logos.
-* Logos takes the user to the respective platform showing the service provider’s profile.
-* Verify the user can be navigated to the social media profiles of the service provider.
-* Social media platform available includes: Twitter, Facebook, Instagram. |   ![title](assets/images/smedia.png)  |
+|13   | Social Media Link |   Must |   As a user I need to easily navigate to the social media profiles of the service provider so that I can connect with them better. |   * The user should see the social media platforms where the service provider is available.* The available social media platforms should be represented by their logos.* Logos takes the user to the respective platform showing the service provider’s profile. * Verify the user can be navigated to the social media profiles of the service provider.* Social media platform available includes: Twitter, Facebook, Instagram. |   ![title](assets/images/smedia.png)  |
 
 
 ### STRATEGY
