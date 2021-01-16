@@ -2,7 +2,7 @@
  
 ![title](assets/images/frontpage.png)
 
-#Calvary Med
+# Calvary Med
 
 Due to the COVID virus, NHS waiting lists are twice as long even though there are not shortages of patients who need basic healthcare not related to covid.
 Many UK residents are looking for quicker appointment times without having to spend a fortune on private healthcare.
@@ -11,11 +11,11 @@ Calvary Medical Services is an intermediary service that provides quicker GP app
 The map will show various doctors in the selected town and the user can pick ones closest to them or their preferred doctor.
 
 
-###DEMO 
+### DEMO 
 A  live demo version can be found [HERE]: https://bukiedow.github.io/CMED/
 
 ￼
-###UX
+### UX
 This site is intended for anyone who lives in the UK and wants faster doctors appointments but do not want to pay the cost of private health care.
 The website consists of four (4) parts:
 	
@@ -26,33 +26,122 @@ The website consists of four (4) parts:
 * Footer- This contains our properly linked social media accounts - Facebook, Twitter and instagram.
 
 
-###USER STORIES
-| S/NO              | CRIB              | PRIORITY (MOSCOW)       | USER STORY         | ACCEPTANCE CRITERIA             |
-| ------------------|:-----------------:| -----------------------:|-------------------:|--------------------------------:|
-|1           |  Homepage           | Must    |As a user I need to see the elements and text as shown in the wireframe |    User should see all text and elements as shown in the wireframe Elements which include: Website name, About, Search, Help, Map, Contact form, Link to social media. User should be able to select all elements.|
+### USER STORIES
+| S/NO              | CRIB              | PRIORITY (MOSCOW)       | USER STORY         | ACCEPTANCE CRITERIA             | SCREENSHOT    |
+| ------------------|:-----------------:| -----------------------:|-------------------:|--------------------------------:| -------------:|
+|1   |   Homepage (means entire website) |    Must |   As a user I need to see the elements and text as shown in the wireframe |   ![title](assets/images/fullscreen.png) |
+ * User should see all text and elements as shown in the wireframe Elements which include: Website name, About, Search, Help, Map, Contact form, Link to social media. User should be able to select all elements.|
+
+|2   |   Website name/Logo |   Must|   As a user I need to see the name and logo of the website so that I am sure i am in the right place |  
+ * Website name and logo is: "Calvary". 
+ * User can see the name of the website on the homepage.
+ * Website name is clear. 
+ * Website name should be in the same colour and font of the other text (see wireframe).|   ![title](assets/images/namelogo.png) |
+
+|2b   |   Website Navigation |   Must   | 
+* As a user I need to be able to see all links leading me throughout the website so that I know where to find information when i need it.
+* As a user, the website should show me a dropdown menu when I am using a smaller screen size.
+* As a user, when i click the help button, it should take me to where I can seek help from calvary|   
+* The navlinks should contain the About , Search and highlighted Help Button.
+* A smaller screen size should collapse the links into a drop down menu. |   ![title](assets/images/navlinks.png) , ![title](assets/images/menudropdown.png) |
+|
 
 
+|3   |   About |   Must|   As a user I need to be informed of the offerings on the website so that I am well informed of the benefits. |    
+ * The user should be able to access the "About" . 
+ * The "About" message should be brief and clear. 
+ * "About" message should read: "Beat long NHS queues. Waiting times are now longer due to COVID.We are the FIRST intermediary doctor appointment platform in all of the United Kingdom".| Just SEARCH for your preferred doctor, contact us with preferred doctor details for guaranteed less than 48 - 72hr appointments. See doctor quicker without the burden of going private."|  
+ * "About" should contain a button called "Doctor Search" that leads the user to the search section of the website where they can search for doctors. |    ![title](assets/images/about.png) |
+
+|4   | Map    | Must |    As a user I need to be able to see a map showing the United Kingdom so that I can confirm I am looking in my preferred area. |   
+ * The user should see a map of the United Kingdom. *User should be able to zoom in & out of the map. 
+ * The map should function just as google map.
+ * User must see the heading of the page indicating they are entering the search area |   ![title](assets/images/mapss.png) |
 
 
-STRATEGY
+|5   | Map - Search    | Must |    As a user I need to search for doctors within my preferred city so that I can see the doctors close to me. |   
+ * The user should be able to search the map for specific cities in the UK. 
+ * "Doctor search" takes the user to the map. *Only cities within the United Kingdom should be available. 
+ * Upon selecting a city, the user should see a list of doctors in the city. |   ![title](assets/images/mapsearch.png) |
+
+
+|6   | Map - Search - Auto populate City |   Should |   As a user I need to see a suggestion of related cities so that I can select my preferred city |    
+* Upon typing the name of a city, the user should see a list of related cities. 
+* The user cannot select more than one city at the same time. 
+* The user should be able to select a city from the list displayed. 
+* Upon selecting a city, the user should see a list of doctors within the city. |   ![title](assets/images/map-autopopulate.png) |
+
+
+|7   | Map - Search - Doctor's List |   Must |   As a user, I need to see a list of doctors within my city so that I can access their contact information |   
+* The list of doctors should display the names of the doctors. * User should be able to browse through the list. 
+* The user should be able to select a doctor from the list displayed. * Upon selecting a doctor, the user should see the contact information of selected doctor
+* The Doctor's contact information should inlcude: Address, Telephone, Rating (If available),  Website (If available). |   ![title](assets/images/map-search-doctorlist.png) |
+
+
+|8   | Map - Search - No Doctors |   Must |   As a user I need to be informed that there are no doctors within my selected city so that I can search in nearby cities |  
+ * User should see a message if there are not doctors within their selected city. 
+ * Message should read: "OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY." |   ![title](assets/images/no results.png) |
+
+
+|9   | Contact us |   Must |   As a user I need to see clear direction on how to reach the service provider so that I can request a doctor. |   
+* Verify the user see clear instruction on contacting the service provider. * Instruction should read: “FOUND YOUR PREFERRED DOCTOR? Click here to reach us”
+* “Click here to reach us” takes user to “your details”. |   ![title](assets/images/contact us.png) |
+
+
+|10   | Your Details |   Must |   As a user I need to provide my contact details so that I can be contacted by my preferred doctor. |  
+ * “Your details” screen should be as indicated in the wireframe.
+*	The user should be able to provide their contact details.
+Contact details includes:
+* Your Name 
+* Your email 
+* Subject
+* Are you or anyone close to you experiencing any COVID symptoms?
+* Message 
+All fields are required.
+* Upon completing the form and send, the user see a notification informing them that the form was sent successfully
+Notification message should read: "Message sent" |   ![title](assets/images/modal details.png),  ![title](assets/images/emailsent.png) |
+
+
+|11   | 	Your Details – Instructions |   Must |   As a user I need to see clear guidance on the contact form so that I know what to do. |   * Verify the user see clear instructions on how to fill the form.
+* Instruction should read: "Please fill this form as accurately as possible and your preferred doctor will contact you within the next 24 hours. If you have been experiencing any COVID symptoms, please state so in the form.
+Terms and conditions apply."|    ![title](assets/images/modal details.png)  |
+
+|12   |   Your Details - Placeholder text |   Should |    As a user I need to see sample texts explaining the required information per field so that I know what to do.|   * The user should see sample texts explaining the information required in each field.
+* Sample text should read as follows:
+|Fields----|:---	Sample text---:|
+|Your name   |	Bukie Dow|
+|Your.  | email	abc@required.com|
+|Subject |  	e.g Doctor in Stevenage|
+| Are you or anyone close to you experiencing any COVID symptoms? |  	e.g Yes I am experiencing… , No, I do not have any symptoms.|
+|Message |  	I am interested in seeing Dr Hughes…| |   ![title](assets/images/modal details.png)  |
+
+|13   | Social Media Link |   Must |   As a user I need to easily navigate to the social media profiles of the service provider so that I can connect with them better. |   
+* The user should see the social media platforms where the service provider is available.
+* The available social media platforms should be represented by their logos.
+* Logos takes the user to the respective platform showing the service provider’s profile.
+* Verify the user can be navigated to the social media profiles of the service provider.
+* Social media platform available includes: Twitter, Facebook, Instagram. |   ![title](assets/images/smedia.png)  |
+
+
+### STRATEGY
 The goal of the design was to make an eye-catching, seamless and fit for purpose website that can be used always.
 
-SCOPE
+### SCOPE
 To provide visitors with another option for quicker GP appointments apart from private healthcare.
 
-STRUCTURE
+### STRUCTURE
 The structure of this website promotes ease of navigation and beauty. 
  The navigation bar is always available for easy manoeuvre across pages. 
 The page is structured to spark the users interest enough to contact us due to the vast choice of doctors in every area.
 
-SKELETON
+### SKELETON
 Balsamiq was used for wireframes.
 
-SURFACE
+### SURFACE
 Easy fonts - Lato and Roboto were chosen for uniformity and less complication due to the simple nature of the website.
 Colours chosen is a mix of yellow, purple and torquoise known as Atlas because of its subtle yet bold nature which os perfect for a website with a short strong message such as this.
 
-TECHNOLOGIES
+### TECHNOLOGIES
 * HTML - To create the structure of the webpage- “as seen in the overall website structure”.
 * CSS - To add styles to the webpage - “as seen in the design, font size and overall appearance of the website”.
 * BOOTSTRAP - To improve responsiveness of the webpage - “ as seen in modal”.
@@ -68,9 +157,9 @@ TECHNOLOGIES
 * MarkerClusterer CDN: To show pinpoint searched for areas and clusters on the map  - “as seen in search results and listings”
 
 
-FEATURES
+### FEATURES
 
-Existing Features include:
+#### Existing Features include:
 * Feature 1 : Navigation including Interactive Navigation Links and menu - Allows the user to navigate between the pages of the website.  The pages of the website are: About us, search and help. The navigation menu also includes the name logo of the website informing users of the name.
 * Feature 2 :About us page - Brief introduction of what the website is about as well as the services offered.
 * Feature 3: Doctor search button - This takes the user to the search page.
@@ -79,29 +168,29 @@ Existing Features include:
 * Feature 6: Contact us - this consists of of a contact us button which encloses a modal where users can fill in their information to contact calvary.
 * Feature 7: footer 0 This contains our properly linked social media accounts - Facebook, Twitter and instagram and allows the user to be redirected to the NHS social media platforms.
 
-FEATURES LEFT TO IMPLEMENT
+#### FEATURES LEFT TO IMPLEMENT
 * Assistive technology for blind, deaf and visually impaired people.
 * Confirmation email to users when they send a doctor request.
 * More countries to be included in next edition.
 
-TESTING
+### TESTING
 All links have been manually tested and function properly.
 
-NAVBAR
+#### NAVBAR
 * The logo is clickable text and directs the user back to the home page.
 * The links are accurately spread out and legible. When clicked, they direct the user to the desired page. The help button is legible, bold and directs the user to the required page.
 * The Navbar is sticky and scrolls along with the page as the user moves without blocking access.
 * When minimised or used on smaller screens, the links collapse into a hamburger button and this button is clickable. When clicked, it drops down with the pages in its contents. These pages are still clickable and still direct the user to desired page.
 * The navigation bar is visible and travels from the top pf the screen as the user scrolls down the webpage.
 
-ABOUT PAGE
+#### ABOUT PAGE
 * Font is legible, bold and eye-catching.
 * Message is positioned the centre of the page making it the first thing user sees and catches attention. 
 * Messages short, concise and fit for purpose.
 * Message and font and Is legible on various screen sizes. It remains legible when minimised too.
 * The doctor search button is position properly on the page, just below the message and catchy. The hover button doesn’t cover the text on the button rather highlights it. The button is clickable and drops down to the search page it is linked to.
 
-SEARCH PAGE
+#### SEARCH PAGE
 * The search page is clearly differentiated with the heading boldly written.
 * The direction on how to use this section though not formally defined, contains instructions on how to use the page.
 * The instruction to search is legible and bold, the browser bar includes a placeholder to further direct the user and finally the right hand side contains the country where the user is searching.
@@ -113,7 +202,7 @@ SEARCH PAGE
 * When the user inputs a city that is not in the UK, the maps does nothing.
 * When the map is minimised, the error msg stays under the map.
 
-HELP
+#### HELP
 * The message in this section is clear, short and straightforward to the point.
 * This section contains useful information that is fit for purpose regarding the aim of the website.
 * This section contains direction for use of objects in the section.
@@ -128,39 +217,27 @@ HELP
 * There is an Ok button available for user to click and close the modal.
 * If user tries to resend another message, the form is clear and good to re-use devoid of previous information.
 
-FOOTER
+#### FOOTER
 * The footer is legible and bold enough to be seen.
 * When the link at the footer is clicked on, it takes you to the top of the page.
 * Social media lcons are correctly linked and links to the NHS England twitter, Facebook and instagram account.
 
-ENTIRE BODY
+#### ENTIRE BODY
 * The entire body of the website is consistent in design, the background is fluid, smooth scroll is evident and there are no elements lapping or outside the website’s borders.
-* 
 
 Overall, this site was tested thus;
- across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness using responsinator.com
-
-HTML code is run and tested at : HTML validator
-CSS code is run and tested at: CSS LINT, CSS-VALIDATOR
-Javascript is run and tested at JSHint
- *make them links*
-	
-	 family members and friends  viewed the site and provided feedback on bugs and any issues.
+* HTML code is run and tested at   [W3CHTMLVALIDATOR]: https://validator.w3.org/ with minimal warnings.
+* CSS code is run and tested at [W3CJIGSAWCSSVALIDATOR]: https://jigsaw.w3.org/css-validator/ with no errors but warnings about using other vendors such as webkit.
+* Javascript is run and tested at [JSHint] : https://jshint.com/ with minimal warnings about editions.
+* Family members and friends viewed the site and provided feedback on bugs and any issues.
 * The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
-* The website was tested on a variety of devices such as Desktop, Laptop, iPad mini, iPhone 7, iPhone 8, iPhoneX and Nokia E30
+* The website was tested on a variety of devices such as Desktop, Laptop, iPad mini, iPhone 7, iPhone 8, iPhoneX and Nokia E30.
 
 
-USER STORIES TESTING 
-First Time User Goals
-Returning User Goals
-Frequent User Goals
-
-KNOWN BUGS
+### KNOWN BUGS
 * Sometimes there is an overflow of the maps results on some screen sizes. The text spills into the map container and looks transparent.
 
-
-
-DEPLOYMENT
+### DEPLOYMENT
 The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
@@ -170,13 +247,13 @@ The project was deployed to GitHub Pages using the following steps...
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 
-Forking the GitHub Repository
+#### Forking the GitHub Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-Making a Local Clone
+#### Making a Local Clone
 1. Log in to GitHub and locate the GitHub Repository
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
@@ -194,10 +271,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 
-CREDITS
-Content
+### CREDITS
+#### Content
 * Most part of the code was written by me and crosschecked with bootstrap and w3schools.com
 
-Acknowledgements
-I received inspiration for this project from being tired of the endless NHS wait times.I also received inspiration from Brian Washby from whom I first saw and loved mixed colour schemes for websites.
+#### Acknowledgements
+I received inspiration for this project from being tired of the endless NHS wait times. I also received inspiration from Brian Washby- a friend -from whom I first saw and loved mixed colour schemes for websites.
 
