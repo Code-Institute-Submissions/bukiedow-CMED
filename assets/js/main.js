@@ -2,7 +2,23 @@ let menu = document.querySelector('#calvary-menu');
 let menuLinks = document.querySelector('.navbar__menu');
 let navLogo = document.querySelector('#navbar__logo');
 
+// Displays Mobile Menu
+let calvaryMenu = () => {
+  menu.classList.toggle('yes-active');
+  menuLinks.classList.toggle('active');
+};
 
+menu.addEventListener('click', calvaryMenu);
+
+// Show active menu when scrolling
+let highlightMenu = () => {
+  let elem = document.querySelector('.highlight');
+  let aboutMenu = document.querySelector('#about-page');
+  let searchMenu = document.querySelector('#search-page');
+  let helpMenu = document.querySelector('#help-page');
+  let scrollPos = window.scrollY;
+
+  
 // Close mobile Menu when clicking on a menu item
 let hideCalvaryMenu = () => {
   let menuBars = document.querySelector('.yes-active');
@@ -40,21 +56,8 @@ window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
 
 
-// Displays Mobile Menu
-let calvaryMenu = () => {
-  menu.classList.toggle('yes-active');
-  menuLinks.classList.toggle('active');
-};
 
-menu.addEventListener('click', calvaryMenu);
 
-// Show active menu when scrolling
-let highlightMenu = () => {
-  let elem = document.querySelector('.highlight');
-  let aboutMenu = document.querySelector('#about-page');
-  let searchMenu = document.querySelector('#search-page');
-  let helpMenu = document.querySelector('#help-page');
-  let scrollPos = window.scrollY;
 
 
   
