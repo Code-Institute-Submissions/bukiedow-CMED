@@ -353,6 +353,10 @@ table {
   overflow-x: hidden;
 }
 
+.listing-wrapper{
+  padding-top: 1 rem;
+}
+
 #no-result {
   font-size: large;
   font-weight: 800;
