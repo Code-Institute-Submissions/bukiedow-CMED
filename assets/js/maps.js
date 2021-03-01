@@ -238,6 +238,7 @@ function buildIWContent(place) {
     }
     document.getElementById("iw-website-row").style.display = "";
     document.getElementById("iw-website").textContent = website;
+    document.getElementById("iw-website").href = website;
   } else {
     document.getElementById("iw-website-row").style.display = "none";
   }
