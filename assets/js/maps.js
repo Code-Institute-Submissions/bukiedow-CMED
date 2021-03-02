@@ -68,9 +68,9 @@ function search() {
     types: ["doctor"],
   };
   places.nearbySearch(search, (results, status, pagination) => {
-    if ($('#no-result').length) $('#no-result').remove()
-    $('#results').empty()
-    if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>')
+    if ($('#no-result').length) $('#no-result').remove();
+    $('#results').empty();
+    if (!results.length) $('#listing').append('<p id="no-result">OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY. OOPS! I AM AFRAID THE PLACE YOU HAVE SEARCHED HAS NO DOCTOR IN THE AREA. PLEASE TRY ANOTHER CITY.</p>');
 
 
     if (status === google.maps.places.PlacesServiceStatus.OK) {
