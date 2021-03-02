@@ -148,7 +148,7 @@ All links have been manually tested and function properly.
 * The entire body of the website is consistent in design, the background is fluid, smooth scroll is evident and there are no elements lapping or outside the website’s borders.
 
 Overall, this site was tested thus;
-* HTML code is run and tested at   W3CHTMLVALIDATOR [https://validator.w3.org/] with minimal warnings.
+* HTML code is run and tested at   W3CHTMLVALIDATOR [https://validator.w3.org/] with one warning. However, this is ignored because it is a Javascript code for emailjs.
 * CSS code is run and tested at W3CJIGSAWCSSVALIDATOR [https://jigsaw.w3.org/css-validator/] with no errors but warnings about using other vendors such as webkit.
 * Javascript is run and tested at JSHint [https://jshint.com/] with minimal warnings about editions.
 * Family members and friends viewed the site and provided feedback on bugs and any issues.
@@ -157,8 +157,7 @@ Overall, this site was tested thus;
 
 
 ### KNOWN BUGS
-* Sometimes there is an overflow of the maps results on some screen sizes. The text spills into the map container and looks transparent.
-
+* none
 ### DEPLOYMENT
 The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the GitHub Repository
